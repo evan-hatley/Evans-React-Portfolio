@@ -3,6 +3,10 @@ import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from '../src/components/Header/Header';
 import Navigation from '../src/components/Header/Navigation';
+import AboutMe  from './pages/AboutMe';
+import Portfolio from './pages/Portfolio';
+import Contact from './pages/Contact';
+import Resume from './pages/Resume';
 import Footer from '../src/components/Footer/Footer';
 
 function App() {
@@ -11,10 +15,10 @@ function App() {
       <div>
         <Header />
         <Routes>
-          <Route path="/about" element={<about />} />
-          <Route path="/portfolio" element={<portfolio />} />
-          <Route path="/contact" element={<contact />} />
-          <Route path="/resume" element={<resume />} />
+          <Route path="/about-me" element={<AboutMe />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="/" element={<home />} />
         </Routes>
       </div>
