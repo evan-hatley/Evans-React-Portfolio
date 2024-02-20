@@ -1,6 +1,6 @@
 function Resume() {
   return (
-    <div>
+    <div className='resume'>
       <h1>My Resume</h1>
       <button><a href= '/resume.pdf' download="resume.pdf">
         Download My Resume Here

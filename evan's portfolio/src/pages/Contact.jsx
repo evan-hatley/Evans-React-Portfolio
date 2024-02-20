@@ -11,6 +11,7 @@ function Contact() {
   };
 
   return (
+    <div className='contact'>
     <form onSubmit={handleSubmit}>
       <h1>Contact Me</h1>
       <p>I can be reached at eahatley@gmail.com, as well as through GitHub and LinkedIn.</p>
@@ -28,6 +29,7 @@ function Contact() {
       </label>
       <button type="submit">Submit</button>
     </form>
+    </div>
   );
 }
 export default Contact;
