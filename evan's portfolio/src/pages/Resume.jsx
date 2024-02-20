@@ -2,7 +2,7 @@ function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <a href={`${process.env.PUBLIC_URL}/resume.pdf`} download="Evan's Resume.pdf">
+      <a href= '/resume.pdf' download="resume.pdf">
         Download My Resume
       </a>
       <h2>Proficiencies</h2>
