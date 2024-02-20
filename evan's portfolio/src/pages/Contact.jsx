@@ -1,31 +1,33 @@
 import { useState } from 'react';
 
 function Contact() {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  
+  const handleSubmit = (event) => {
+    event.preventDefault(); 
+    alert("I'll get back to you soon!");
+  };
 
   return (
-    <form>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" name="name" required />
-      </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" name="email" required />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-      </div>
-      <div>
-        <button type="submit">Submit</button>
-      </div>
+    <form onSubmit={handleSubmit}>
+      <h1>Contact Me</h1>
+      <p>I can be reached at eahatley@gmail.com, as well as through GitHub and LinkedIn.</p>
+      <label>
+        Name:
+        <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+      </label>
+      <label>
+        Email:
+        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+      </label>
+      <label>
+        Message:
+        <textarea value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+      </label>
+      <button type="submit">Submit</button>
     </form>
   );
-
 }
 export default Contact;

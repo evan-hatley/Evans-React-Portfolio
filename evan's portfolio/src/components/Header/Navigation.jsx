@@ -2,12 +2,12 @@ import { NavLink } from 'react-router-dom';
 
 function Navigation() {
   return (
-    <nav>
+    <nav className='nav'>
       <ul>
-        <li><NavLink to="/about-me" >About Me</NavLink></li>
-        <li><NavLink to="/portfolio" >Portfolio</NavLink></li>
-        <li><NavLink to="/contact" >Contact</NavLink></li>
-        <li><NavLink to="/resume" >Resume</NavLink></li>
+        <button><NavLink to="/about-me" >About Me</NavLink></button>
+        <button><NavLink to="/portfolio" >Portfolio</NavLink></button>
+        <button><NavLink to="/contact" >Contact</NavLink></button>
+        <button><NavLink to="/resume" >Resume</NavLink></button>
       </ul>
     </nav>
   );

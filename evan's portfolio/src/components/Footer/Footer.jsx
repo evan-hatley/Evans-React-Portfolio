@@ -1,13 +1,13 @@
 function Footer () {
     return (
-      <footer>
+      <footer className="footer">
         <div className="social-links">
-          <a href="https://github.com/evan-hatley/" target="_blank" rel="noopener noreferrer">
+          <button><a href="https://github.com/evan-hatley/" target="_blank" rel="noopener noreferrer">
             GitHub
-          </a>
-          <a href="https://www.linkedin.com/in/evan-hatley-020033158/" target="_blank" rel="noopener noreferrer">
+          </a></button>
+          <button><a href="https://www.linkedin.com/in/evan-hatley-020033158/" target="_blank" rel="noopener noreferrer">
             LinkedIn
-          </a>
+          </a></button>
         </div>
       </footer>
     );

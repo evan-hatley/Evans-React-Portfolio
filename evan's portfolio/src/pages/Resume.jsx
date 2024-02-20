@@ -1,11 +1,11 @@
 function Resume() {
   return (
     <div>
-      <h1>Resume</h1>
-      <a href= '/resume.pdf' download="resume.pdf">
-        Download My Resume
-      </a>
-      <h2>Proficiencies</h2>
+      <h1>My Resume</h1>
+      <button><a href= '/resume.pdf' download="resume.pdf">
+        Download My Resume Here
+      </a></button>
+      <h2>Technical Proficiencies</h2>
       <ul>
         
         <li>JavaScript</li>

@@ -2,7 +2,6 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from '../src/components/Header/Header';
-import Navigation from '../src/components/Header/Navigation';
 import AboutMe  from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
