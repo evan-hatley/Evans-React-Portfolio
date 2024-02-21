@@ -5,19 +5,34 @@
   text-align: center;
 }
 
-.card {
-  padding: 2em;
-}
-
 .header {
-  max-width: 1280px;
-  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
   background-color: #2D3142;
   color: white;
 }
 
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 10px; 
+}
+
+.nav button {
+  background: #C2CFB2;
+  border: none;
+  padding: 10;
+}
+
 .footer {
   max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
   padding: 15px;
   background-color: #2D3142;
   color: white;
@@ -50,3 +65,4 @@
   background-color: #DDD1C7;
   color: black;
 }
+

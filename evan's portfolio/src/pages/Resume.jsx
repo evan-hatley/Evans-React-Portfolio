@@ -8,8 +8,14 @@ function Resume() {
       <h2>Technical Proficiencies</h2>
       <ul>
         
+      <li>HTML + CSS</li>
+        <li>MongoDB</li>
+        <li>Express.js</li>
+        <li>React.js</li>
+        <li>Node.js</li>
         <li>JavaScript</li>
-        <li>React</li>
+        <li>APIs</li>
+        
 
       </ul>
     </div>

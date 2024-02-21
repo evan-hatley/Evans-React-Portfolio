@@ -26,7 +26,7 @@ MIT
 
 ## Testing
 
-Trial and error
+Trial and error, I'm still learning React
 
 ## Questions
 
