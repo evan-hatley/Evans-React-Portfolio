@@ -2,7 +2,7 @@
 
 ## Description
 
-  I'm building a front-end Single Page Application  to demonstrate what I have learned throughout my bootcamp experience. It's a personal portfolio including multiple pages to demonstrate my capabilities. You can reach the live link [here](https://github.com/evan-hatley).
+  I'm building a front-end Single Page Application  to demonstrate what I have learned throughout my bootcamp experience. It's a personal portfolio including multiple pages to demonstrate my capabilities. You can reach the live link [here](https://main--dreamy-smakager-7c6945.netlify.app/).
 
 ## Table of Contents
 
